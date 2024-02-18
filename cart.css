@@ -1,0 +1,75 @@
+*
+{
+    font-family: 'Noto Sans Thai', sans-serif; 
+}
+.container .head_shop
+{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0;
+    background-color: #446476;
+}
+.header_name
+{
+    border-bottom: 1px solid #000000;
+}
+.detail
+{
+    border-bottom: 1px solid #000000;
+}
+.detail td
+{
+    vertical-align: middle;
+}
+.plus
+{
+    background-color: none;
+    border: none;
+}
+.plus:hover
+{
+    background-color: #ffffff;
+}
+.reduce
+{
+    background-color: none;
+    border: none;
+}
+.reduce:hover
+{
+    background-color: #ffffff;
+}
+.btn-bottom
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.btn-bottom .go-shop
+{
+    border: none;
+    font-weight: 900;
+}
+.btn-bottom .go-shop:hover
+{
+    background-color: #ffffff;
+}
+.btn-bottom .confirm
+{
+    background-color: #07b404;
+    border: none;
+    border-radius: 0;
+}
+.btn-bottom .confirm:hover
+{
+    background-color: #446476;
+}
+.btn-bottom .go-shop i
+{
+    color: red;
+}

@@ -1,0 +1,50 @@
+* 
+{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.bgnavbar 
+{
+    background-color: #303030;
+    position: relative;
+}
+.navbar-brand img
+{
+    box-shadow: none;
+}
+.navbar-dark .nav-item .nav-link 
+{
+    color: #fff;
+}
+.btnsearch 
+{
+    background-color: #fff;
+}
+.btnsearch:hover 
+{
+    background-color: #fff;
+}
+.fa-li 
+{
+    position: relative;
+    left: 0;
+}
+i 
+{
+    color: #fff;
+}
+i:hover 
+{
+    color: #f0c22e;
+}
+.btnsearch i
+{
+    color: #303030;
+}
+.link-product
+{
+    color: #ffffff;
+}
+.link-product:hover
+{
+    color: #ffffff;
+}

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.desk {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bedkit-body {
+    display: flex;
+    width: 70%;
+    padding: 2rem 0;
+}
+
+.bedkit {
+    width: 100%;
+    display: flex;
+}
+
+.bedkit-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+    background: #4D4D4D;
+    color: #000;
+    border-radius: 0 3.5rem 3.5rem 0;
+}
+
+.bedkit-img {
+    width: 50%;
+}
+
+.bedkit-img h1 {
+    position: absolute;
+}
+
+.bedkit-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3.5rem 0 0 3.5rem;
+}
+
+.wrapform {
+    width: 100%;
+}
+
+.wrapform h3 {
+    width: 70%;
+    margin: auto auto;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.form-user {
+    display: grid;
+    justify-items: center;
+}
+
+.form-user input {
+    width: 70%;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    padding-left: 15px;
+    box-shadow: #646464 0px 0px 15px;
+}
+
+.desk .bedkit-body .bedkit-text .wrapform .btn-signin {
+    color: #ffffff;
+    font-weight: 800;
+    background: linear-gradient(90deg, rgba(61, 106, 106, 1) 0%, rgba(0, 171, 179, 1) 100%);
+    width: 70%;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #646464 0px 0px 15px;
+}
+
+.btn-signin:hover {
+    background-color: #00ABB3;
+}
+
+.or {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.btn-createuser {
+    background: linear-gradient(90deg, rgba(63, 167, 150, 1) 0%, rgba(166, 209, 230, 1) 100%);
+    width: 70%;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: #646464 0px 0px 15px;
+}
+
+.btn-createuser a {
+    color: #ffffff;
+    font-weight: 800;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn-createuser:hover {
+    background-color: #f5be90;
+}
+
+.admin {
+    color: #ffffff;
+}
+
+.admin a {
+    color: #ff923f;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (max-width : 1024px) {
+
+    .bedkit-body {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto auto;
+    }
+
+    .bedkit {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+
+    .bedkit-img img {
+        display: none;
+    }
+
+
+    .bedkit-text {
+        width: 80%;
+        padding: 2rem;
+        border-radius: 3.5rem;
+    }
+
+    .bedkit-text h2 {
+        margin-bottom: 0.3rem;
+    }
+
+    .bedkit-img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    .bed-new {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .bedkit-img img {
+        display: none;
+    }
+}

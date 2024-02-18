@@ -1,0 +1,57 @@
+* {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.container-main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-header {
+    width: 100%;
+    margin: 3rem 2rem;
+}
+
+.main-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: black 0 0 5px;
+    border-radius: 1rem;
+    padding: 3rem;
+}
+
+.textbox-one {
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+.textbox-two {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.btn-class1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn-class2 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-kub {
+    width: 30%;
+}
+
+.outer-form {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}

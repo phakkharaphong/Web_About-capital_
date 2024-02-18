@@ -1,0 +1,37 @@
+*
+{
+    font-family: 'Noto Sans Thai', sans-serif; 
+}
+body
+{
+    background-color: #E6DBD3;
+}
+.wraper
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row
+{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+.image
+{
+    padding: 2rem;
+}
+.detail
+{
+    padding: 2rem;
+}
+.detail a.cart
+{
+    float: right;
+    border: none;
+    border-radius: 2rem;
+    background-color: #6D523C;
+}

@@ -1,0 +1,85 @@
+* 
+{
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: #ffffff;
+}
+
+.index-main 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.container-emp 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.container-book 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.index-main .la-empid 
+{
+    width: 100%;
+}
+
+.index-main .search-book 
+{
+    width: 100%;
+}
+
+.add-namebook 
+{
+    width: 90%;
+}
+
+.stafid {
+    width: 90%;
+}
+
+.ordernum 
+{
+    width: 3.5rem;
+    text-align: center;
+}
+
+.centerfix 
+{
+    text-align: center;
+}
+.bottom-menu
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-menu .btn-backhome
+{
+    background-color: #446476;
+    border: none;
+}
+.bottom-menu .btn-backhome:hover
+{
+    background-color: #BF6060;
+}
+.bottom-menu .btn-add
+{
+    border: none;
+    background-color: #53966E;
+    color: white;
+}
+.bottom-menu .btn-add:hover
+{
+    background-color: #333333;
+    color: white;
+}

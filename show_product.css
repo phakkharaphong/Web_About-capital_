@@ -1,0 +1,64 @@
+*
+{
+    font-family: 'Noto Sans Thai', sans-serif; 
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto !important;
+}
+.warp
+{
+    width: 250px !important;
+    margin: 0 12px;
+    padding: 0 !important;
+}
+img.image
+{
+
+    width: 100%;
+    height: 330px;
+    box-shadow: #000000 0 0 10px;
+}
+.image:hover
+{
+    transform: scale(1.02);
+    transition: transform .4s ease;
+}
+.name
+{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+/* .price
+{
+    float: left;    
+} */
+.iconaprice
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.warp .cart
+{
+    /* float: right; */
+    border: none;
+    background-color: #ffffff;
+    /* margin-left: 160px; */
+    padding: 0 !important;
+}
+.warp .cart:hover
+{
+    background-color: #ffffff;
+}
+.warp .cart i
+{
+    color: #000000;
+}
+.warp .cart i:hover{
+    color: #ffbb00;
+}
